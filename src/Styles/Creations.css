@@ -1,0 +1,86 @@
+@media (min-width: 500px) {
+  .half {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (max-width: 500px) {
+  .half {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.CreationsContainer {
+  padding: 20px;
+  text-align: center;
+}
+
+.CreationsContainer h1 {
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.creationsImages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+  max-width: 1084px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imageCard {
+  margin: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.imageCard:hover {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.imageCard img {
+  width: 100%;
+}
+
+.cardName {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: left;
+}
+
+.cardName h2 {
+  margin: 0px;
+}
+
+.seeAllBtn {
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+  padding: 10px 30px 10px 30px;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=Creations.css.map */
